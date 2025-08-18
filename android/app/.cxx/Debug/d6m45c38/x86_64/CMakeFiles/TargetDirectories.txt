@@ -1,0 +1,2 @@
+D:/bis 4/Project/first try/Athlify/android/app/.cxx/Debug/d6m45c38/x86_64/CMakeFiles/edit_cache.dir
+D:/bis 4/Project/first try/Athlify/android/app/.cxx/Debug/d6m45c38/x86_64/CMakeFiles/rebuild_cache.dir

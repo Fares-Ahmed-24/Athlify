@@ -1,0 +1,2 @@
+C:/Users/ahman/OneDrive/Desktop/Graduation Project/Athlify/android/app/.cxx/Debug/232z4v2h/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/ahman/OneDrive/Desktop/Graduation Project/Athlify/android/app/.cxx/Debug/232z4v2h/armeabi-v7a/CMakeFiles/rebuild_cache.dir

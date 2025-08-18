@@ -1,0 +1,49 @@
+buildscript {
+    ext.kotlin_version = '1.9.22' // ← هنا حط أحدث إصدار متوافق
+    
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.3.1"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // ✅ ADD THIS
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral() // ✅ ADD THIS LINE
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.4.0'
+        classpath 'com.google.gms:google-services:4.4.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral() // ✅ MAKE SURE IT'S HERE TOO
+    }
+}
+
+// The rest of your file...
+
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342796370168",
+    "project_id": "athlify-40fb4",
+    "storage_bucket": "athlify-40fb4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342796370168:android:96b497447d07a1c1cdbb0d",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVy-dOYJ5KjDiWsNze6xfTu_SCS_9RjWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
